@@ -1,0 +1,12 @@
+{
+  "hash": "053e0f2fe459597fea24a7e6c1f93773",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "# Prepara tu entorno y herramientas\n\nEn esta sección revisaremos los ajustes previos para comenzar a usar la plataforma y configurar los cambios realizados en un notebook desde un contenedor de docker, ejecutado en Visual Studio Code.\n\nVisual Studio Code tiene una excelente integración con Git y GitHub. Puedes usar la pestaña de control de código fuente (ícono de rama en la barra lateral izquierda) para realizar commits, sincronizar cambios y ver el estado del repositorio.\n\n## Inicia Docker y crea un contenedor\n\nInicia Docker, puedes iniciar un contenedor si tienes contenedores para iniciar desde tu docker desktop\n\nConfirma que tienes instalada la extension\n\n![Dev containers](imagenes/Dev.png){width=\"80%\" height=\"300px\"}\n\nEl comando Ctrl + Shift +P permite observar que contenedores estan en ejecucion para entrar en el que desees.\n\n![Contenedores en ejecución](imagenes/control.png){width=\"80%\"}\n\nTambien puedes crear un contenedor nuevo con base en una imagen que ya tengas guardada, ejecutando el siguiente comando en tu terminal.\n\n\n```{terminal}\ndocker run -it --imagen_predeterminada bash  \n```\n\n\nEn la parte inferior izquierda de VSC o en la terminal podras comprobar que estas dentro del contenedor\n\n![Contenedores en ejecución](imagenes/contenedor.png)\n\n![Contenedor en ejecución visto desde terminal de](imagenes/con_terminal.png)\n\n## Crea tu notebook desde Visual Studio Code\n\nPuedes abrir un nuevo notebook compatible con jupyter desde archivo y guardar con extensión .ipynb\n\n![Contenedores en ejecución](imagenes/new_note.png)\n\nAhora vamos a configurar nuestro repositorio.\n\n",
+    "supporting": [
+      "intro_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

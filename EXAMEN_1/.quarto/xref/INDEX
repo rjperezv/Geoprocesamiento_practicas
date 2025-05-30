@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "633971d7",
+    "pdf": "9ba4c699"
+  },
+  "intro.qmd": {
+    "intro.html": "450cd9bd",
+    "pdf": "3ae5b2aa"
+  },
+  "summary.qmd": {
+    "summary.html": "a90d99e4",
+    "pdf": "63352924"
+  },
+  "references.qmd": {
+    "references.html": "40457bc0"
+  },
+  "prediccion.qmd": {
+    "prediccion.html": "3c9c3a66",
+    "pdf": "7cf453f2"
+  },
+  "tres.qmd": {
+    "tres.html": "eda170a3",
+    "pdf": "e86b5c41"
+  },
+  "EDA.qmd": {
+    "EDA.html": "9726cf61",
+    "pdf": "2cd2e2ab"
+  },
+  "EDA_2.qmd": {
+    "EDA_2.html": "ae0aead9"
+  },
+  "EDA_3.qmd": {
+    "EDA_3.html": "1a00cf17"
+  },
+  "summary_4.qmd": {
+    "summary_4.html": "e1ee944a"
+  }
+}

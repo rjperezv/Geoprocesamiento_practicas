@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: f1065455-06a5-4f65-9fe1-c6e82e844c46
+      url: https://pedometria.quarto.pub/ejercicio-de-mapeo-digital-de-suelos-para-prediccion-de-ph

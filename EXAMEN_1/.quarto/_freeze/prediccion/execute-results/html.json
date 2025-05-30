@@ -1,0 +1,12 @@
+{
+  "hash": "e59c2478201907c76dbf3ea4a282c348",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Prediccion\"\nformat: html\neditor: visual\n---\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## Uso del repositorio GIt directamente desde VS Code\n\n## git add (Agregar cambios al área de staging)\n\n-   En el panel lateral izquierdo, haz clic en el icono de **Control de código fuente** (o presiona **`Ctrl + Shift + G`**).\n\n-   Verás los archivos modificados listados bajo \"Changes\".\n\n-   Para preparar (staging) los archivos que quieres incluir en el próximo commit:\n\n    -   Haz clic en el símbolo **`+`** que aparece al lado de cada archivo para agregarlo individualmente.\n\n    -   O haz clic en el símbolo **`+`** junto a \"Changes\" para agregar todos los archivos modificados.\n\nEsto equivale a hacer **`git add <archivo>`** o **`git add .`** en la terminal.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n```{terminal}\n\n```\n\n",
+    "supporting": [
+      "prediccion_files\\figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

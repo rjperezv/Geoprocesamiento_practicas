@@ -1,0 +1,15 @@
+{
+  "hash": "34cbfc227a069f1abeb1f38d25ebcf97",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Prediccion\"\nformat: html\neditor: visual\n---\n\n\n\n\n\n\n## Predicción de propiedades de suelo\n\n-   **Conjunto de Entrenamiento (Train)**: Es la porción de datos que se utiliza para **entrenar** el modelo. El modelo aprende a identificar patrones y hacer predicciones de acuerdo a la información proporcionada.\n\n-   **Conjunto de Prueba (Test)**: Es la porción de datos que se encarga de **evaluar** la eficiencia del modelo. Estos datos no se utilizan durante el entrenamiento y sirven para probar cómo el modelo puede generar nuevos datos.\n\nLo que se busca es que el modelo pueda predecir correctamente los resultados en datos desconocidos, esto indica su capacidad de generalización. Si el modelo presenta un rendimiento similar en ambos conjuntos, es probable que funcione bien con datos nuevos.\n\nSin embargo, si hay una gran discrepancia entre el rendimiento en el conjunto de entrenamiento y el de prueba, podría indicar un problema, como el sobreajuste (overfitting), donde el modelo aprende demasiado los detalles del conjunto de entrenamiento y pierde capacidad de generalizar.\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
