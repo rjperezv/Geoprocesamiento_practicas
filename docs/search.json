@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Configuración de GitHub desde Visual Studio Code en un contenedor Docker",
+    "section": "",
+    "text": "Introducción",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html#qué-es-github",
+    "href": "index.html#qué-es-github",
+    "title": "Configuración de GitHub desde Visual Studio Code en un contenedor Docker",
+    "section": "¿Qué es GitHub?",
+    "text": "¿Qué es GitHub?\nGitHub es una plataforma basada en la nube que permite a los desarrolladores almacenar, compartir y colaborar en proyectos de desarrollo de software utilizando el sistema de control de versiones llamado Git. Su principal función es alojar repositorios, que son carpetas digitales donde se guardan los archivos de un proyecto y su historial de cambios.\nGitHub facilita el trabajo en equipo, permitiendo que varios usuarios modifiquen el mismo código de manera organizada y segura. Los desarrolladores pueden crear ramas para trabajar en nuevas funcionalidades sin afectar el código principal, revisar y comentar los cambios de otros, y proponer mejoras mediante solicitudes de cambio (pull requests). Además, GitHub permite gestionar tareas, errores y mejoras a través de incidencias (issues).\nLa plataforma es muy popular en el mundo del desarrollo de software, con millones de usuarios y repositorios, y es especialmente conocida por alojar proyectos de código abierto. Desde 2018, GitHub es propiedad de Microsoft, pero sigue siendo una herramienta esencial y de libre acceso para desarrolladores de todo el mundo.",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html#por-que-usar-github",
+    "href": "index.html#por-que-usar-github",
+    "title": "Configuración de GitHub desde Visual Studio Code en un contenedor Docker",
+    "section": "¿Por que usar GitHub?",
+    "text": "¿Por que usar GitHub?\nUsar GitHub cuando trabajas con código es útil por varias razones fundamentales:\n\nControl de versiones: GitHub, basado en Git, permite registrar cada cambio en el código, facilitando el seguimiento de todas las modificaciones, la restauración a versiones anteriores y la identificación de problemas específicos.\nColaboración eficiente: Permite que varios desarrolladores trabajen en el mismo proyecto desde cualquier lugar del mundo, compartiendo avances y revisando cambios antes de integrarlos al proyecto principal mediante solicitudes de cambio (pull requests).\nGestión de tareas y errores: Incluye herramientas para reportar errores, asignar tareas y hacer seguimiento de mejoras mediante incidencias (issues) y tableros de proyectos, lo que ayuda a organizar el flujo de trabajo.\nAutomatización de procesos: Permite automatizar pruebas, integración y despliegues (CI/CD) con GitHub Actions y otras integraciones, ahorrando tiempo en tareas repetitivas.\nDocumentación centralizada: Facilita la creación y actualización de documentación mediante archivos README y Wikis, lo que ayuda a que cualquier persona pueda entender y contribuir al proyecto.\nComunidad y aprendizaje: Accedes a una gran comunidad de desarrolladores, donde puedes aprender de otros proyectos, colaborar en código abierto y mejorar tus habilidades.\nSeguridad y control de accesos: Permite gestionar permisos y proteger el código mediante herramientas de seguridad y escaneo de vulnerabilidades.\n\nEn resumen, GitHub optimiza el desarrollo de software al hacerlo más organizado, seguro, colaborativo y eficiente, lo que lo convierte en una herramienta esencial para cualquier persona que trabaje con código.\nAdemás, el control de versiones te permite:\nRevisar el historial completo de cambios: Puedes ver quién hizo cada modificación y cuándo, lo que ayuda a identificar errores y entender el progreso del proyecto.\nRestaurar versiones anteriores: Si introduces un error o necesitas recuperar un estado anterior del proyecto, puedes hacerlo fácilmente.\nColaborar sin conflictos: Facilita el trabajo simultáneo de varias personas en el mismo proyecto, resolviendo automáticamente la mayoría de los conflictos y permitiendo fusionar los cambios de manera ordenada.\nMejorar la calidad del código: Al permitir revisiones y comentarios antes de integrar los cambios, se fomenta la revisión entre pares y la detección temprana de errores.\nEn resumen, el control de versiones en GitHub te ayuda a trabajar de manera más segura, organizada y eficiente, protegiendo tu código y optimizando la colaboración en equipo.\n\nBienvenidxs al uso de GItHub\nEs tiempo … ¡Vamos a usar GitHub!\n\n\n\n¡Esto es GitHub!",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "EDA_2.html",
+    "href": "EDA_2.html",
+    "title": "1  Prepara tu entorno y herramientas",
+    "section": "",
+    "text": "1.1 Inicia Docker y crea un contenedor\nEn esta sección revisaremos los ajustes previos para comenzar a usar la plataforma y configurar los cambios realizados en un notebook desde un contenedor de docker, ejecutado en Visual Studio Code.\nVisual Studio Code tiene una excelente integración con Git y GitHub. Puedes usar la pestaña de control de código fuente (ícono de rama en la barra lateral izquierda) para realizar commits, sincronizar cambios y ver el estado del repositorio.\nInicia Docker, puedes iniciar un contenedor si tienes contenedores para iniciar desde tu docker desktop\nConfirma que tienes instalada la extension\nEl comando Ctrl + Shift +P permite observar que contenedores estan en ejecucion para entrar en el que desees.\nTambien puedes crear un contenedor nuevo con base en una imagen que ya tengas guardada, ejecutando el siguiente comando en tu terminal.\nEn la parte inferior izquierda de VSC o en la terminal podras comprobar que estas dentro del contenedor",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prepara tu entorno y herramientas</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_2.html#inicia-docker-y-crea-un-contenedor",
+    "href": "EDA_2.html#inicia-docker-y-crea-un-contenedor",
+    "title": "1  Prepara tu entorno y herramientas",
+    "section": "",
+    "text": "Dev containers\n\n\n\n\n\n\nContenedores en ejecución\n\n\n\n        docker run -it --imagen_predeterminada bash\n\n\n\n\nContenedores en ejecución\n\n\n\n\n\nContenedor en ejecución visto desde terminal de",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prepara tu entorno y herramientas</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_2.html#crea-tu-notebook-desde-visual-studio-code",
+    "href": "EDA_2.html#crea-tu-notebook-desde-visual-studio-code",
+    "title": "1  Prepara tu entorno y herramientas",
+    "section": "1.2 Crea tu notebook desde Visual Studio Code",
+    "text": "1.2 Crea tu notebook desde Visual Studio Code\nPuedes abrir un nuevo notebook compatible con jupyter desde archivo y guardar con extensión .ipynb\n\n\n\nContenedores en ejecución\n\n\nAhora vamos a configurar nuestro repositorio.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prepara tu entorno y herramientas</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_3.html",
+    "href": "EDA_3.html",
+    "title": "2  Guia de conectividad con GitHub",
+    "section": "",
+    "text": "2.1 Configuración de GitHub\nAhora que tenemos algunas generaliddes sobre GitHub, su uso e importancia podemos comenzar a usarlo.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guia de conectividad con GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_3.html#crea-una-cuenta-en-github",
+    "href": "EDA_3.html#crea-una-cuenta-en-github",
+    "title": "2  Guia de conectividad con GitHub",
+    "section": "2.2 Crea una cuenta en GitHub",
+    "text": "2.2 Crea una cuenta en GitHub\nPuedes omitir algunos pasos si ya los tienes\nCrea una cuenta en GitHub si aún no tienes aqui",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guia de conectividad con GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_3.html#crear-nuevo-repositorio",
+    "href": "EDA_3.html#crear-nuevo-repositorio",
+    "title": "2  Guia de conectividad con GitHub",
+    "section": "2.3 Crear Nuevo Repositorio",
+    "text": "2.3 Crear Nuevo Repositorio\nUn repositorio de GitHub es como su carpeta en la nube. Puede almacenar archivos (datos, código fuente), ver los cambios históricos en estos archivos, abrir problemas, discutir cambios y mucho más. Las personas suelen crear un repositorio por proyecto.\nLa sección Owner ya tendrá el nombre de tu cuenta. Crea un nombre de repositorio. Comprueba si está configurado como Público para que sea de código abierto, y luego marca la casilla Add a README file. Finalmente, haz clic en Create repository.\n\n\n\nContenedores en ejecución\n\n\nAl crear tu repositorio puedes crear un archivo README, que es un documento de texto (normalmente llamado README.md) el cual contiene información importante sobre tu proyecto, como ¿qué hace?, ¿cómo usarlo?, ¿quién lo mantiene? y ¿cómo contribuir?. Es la primera cosa que ven los visitantes cuando entran a tu repositorio en GitHub, y ayuda a que otros entiendan tu proyecto fácilmente.\nPuedes crear tu repositorio sin un README, o de modo privado segun desees manejar tu información.\n\n\n\nContenedores en ejecución\n\n\nPuedes explorar otras funciones de GitHub aqui",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guia de conectividad con GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_3.html#configurar-git-localmente",
+    "href": "EDA_3.html#configurar-git-localmente",
+    "title": "2  Guia de conectividad con GitHub",
+    "section": "2.4 Configurar Git Localmente",
+    "text": "2.4 Configurar Git Localmente\nPara evitar ingresar credenciales repetidamente:\nConfigura tu nombre y correo en Git ejecutando en la terminal:\n{c++} git config --global user.name \"Tu Nombre\" git config --global user.email \"tuemail@ejemplo.com\"",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guia de conectividad con GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_3.html#configura-autenticación",
+    "href": "EDA_3.html#configura-autenticación",
+    "title": "2  Guia de conectividad con GitHub",
+    "section": "2.5 Configura autenticación",
+    "text": "2.5 Configura autenticación\nSi el servidor tiene que acceder a repositorios en una o más organizaciones, puede usar GitHub App para definir el acceso necesario y, luego, generar tokens de acceso de instalación de ámbito limitado desde esa GitHub App. Se puede ajustar el alcance de los tokens de acceso de instalación para repositorios múltiples y pueden tener permisos específicos. Por ejemplo, puedes generar un token con acceso de solo lectura al contenido de un repositorio.\nYa que las GitHub Apps son un actor de primera clase en GitHub, los tokens de acceso de instalación se desacoplan de cualquier usuario de GitHub, lo cual los hace comparables con los “tokens de servicio”. Adicionalmente, los tokens de acceso de instalación tienen límites de tasa dedicados que se escalan de acuerdo con el tamaño de las organizaciones sobre las cuales actúan.\n\n2.5.1  Ventajas de los tokens de acceso de instalación\n· Tokens de alcance muy específico con conjuntos de permisos bien definidos y tiempos de vencimiento (1 hora o menos si se revocan manualmente utilizando la API)\n·Límites de tasa dedicados que crecen con tu organización\n· Desacoplado de identidades de usuario de GitHub, por lo que no consumen puestos con licencia\n·Nunca se les otorga una contraseña, así que no se puede iniciar sesión directamente en ellos\n\n\n2.5.2 Desventajas de los tokens de acceso de instalación\n·Se necesita una configuración adicional para crear GitHub App.\n·         Los tokens de acceso de instalación expiran después de 1 hora ( o el tiempo que tu selecciones), por lo que necesitan volver a generarse habitualmente cuando se necesiten utilizando código\n·         Tokens de alcance muy específico con conjuntos de permisos bien definidos y tiempos de vencimiento (1 hora o menos si se revocan manualmente utilizando la API)\n·         Límites de tasa dedicados que crecen con tu organización\n·         Desacoplado de identidades de usuario de GitHub, por lo que no consumen puestos con licencia\n·         Nunca se les otorga una contraseña, así que no se puede iniciar sesión directamente en ellos\n\nVe a https://github.com/settings/tokens\nHaz clic en “Generate new token (classic)”\n\n\n\nContenedores en ejecución\n\n\nSelecciona estos permisos:\n✅repo\n(Opcional: workflow si usarás GitHub Actions)\nCopia el token generado (se verá como: ghp_xxxxxxxxxxxxxxxxxxxxxx)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guia de conectividad con GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "EDA_3.html#nota-opcional-como-usar-el-token-para-autenticarse-en-vs-code-desde-tu-notebook",
+    "href": "EDA_3.html#nota-opcional-como-usar-el-token-para-autenticarse-en-vs-code-desde-tu-notebook",
+    "title": "2  Guia de conectividad con GitHub",
+    "section": "2.6 Nota opcional: como usar el token para autenticarse en VS Code desde tu notebook",
+    "text": "2.6 Nota opcional: como usar el token para autenticarse en VS Code desde tu notebook\n\n2.6.1 Opción 1: Usar el token al hacer operaciones Git por HTTPS\nCuando hagas un comando Git que requiera autenticación, como git push o git clone, Git te pedirá usuario y contraseña.\nUsuario: tu nombre de usuario de GitHub.\nContraseña: en lugar de tu contraseña, pega el token que generaste.\n\n\n2.6.2 Opción 2: Configurar el token para que VS Code lo recuerde\nPara evitar ingresar el token cada vez:\n\nAbre VS Code y el terminal integrado.\nConfigura Git para usar un asistente de credenciales que guarde el token\ngit config --global credential.helper cache\n2.6.2.1 ¿Cómo lo usas?\nCuando haces:\ngit push\nY te pide:\nUsername: tuusuario\nPassword:  ← aquí pega el token",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guia de conectividad con GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "summary_4.html",
+    "href": "summary_4.html",
+    "title": "3  GitHub en tu contenedor",
+    "section": "",
+    "text": "3.1 Clona tu repositorio dentro del contenedor Docker\nClonar un repositorio significa copiar todo el contenido de un proyecto GitHub a tu máquina local, dentro de una carpeta nueva. Para ellos puedes escoger una ruta en tu maquina local o dejar la que se crea por defecto en disco c.\nPara abrir la carpeta se usa el siguiente comando\nLuego de tener la carpeta dentro de la misma copiamos el repositorio, con el siguiente comando en terminal\ngit clone https://github.com/your_username/your_repository_name.git\nSe crea una carpeta para el repositorio que puedes empezar a usar para realizar todos los cambios que desees, asi como guardar informacion y construir carpetas nuevas en tu repositorio.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>GitHub en tu contenedor</span>"
+    ]
+  },
+  {
+    "objectID": "summary_4.html#clona-tu-repositorio-dentro-del-contenedor-docker",
+    "href": "summary_4.html#clona-tu-repositorio-dentro-del-contenedor-docker",
+    "title": "3  GitHub en tu contenedor",
+    "section": "",
+    "text": "mkdir Proyectos\\mi_carpeta\n\ncd Proyectos\\mi_carpeta\n\n\n\n\n3.1.0.1 Probremos…",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>GitHub en tu contenedor</span>"
+    ]
+  },
+  {
+    "objectID": "summary_4.html#crear-carpetas-y-archivos-en-tu-carpeta-git.",
+    "href": "summary_4.html#crear-carpetas-y-archivos-en-tu-carpeta-git.",
+    "title": "3  GitHub en tu contenedor",
+    "section": "3.2 Crear carpetas y archivos en tu carpeta Git.",
+    "text": "3.2 Crear carpetas y archivos en tu carpeta Git.\nPuedes crear carpetas de forma manual o desde tu terminal, procurando seguir una estructura ordenada\nRuta a tu carpeta del repositorio Git. ├── notebooks\n│ └── practica_01.ipynb ├── data\n│ └── suelo_data.csv ├── .git\n├── README.md\n\n\n3.2.1 Agrega los archivos:\nNo hace nada sin parámetros y muestra que estan listos los archivos para subir\ngit add notebooks/ data/\n\n\n3.2.2 Haz un commit:\nRegistra los cambios localmente y permite comentar sobre los cambios realizados\ngit commit -m \"Agrega carpetas notebooks y data con archivos iniciales\"\n\n\n3.2.3 Sube a GitHub:\nSube los cambios a GitHub\ngit push origin main\nVeras los cambios realizados en tu repositorio\n\n\n\nContenedores en ejecución",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>GitHub en tu contenedor</span>"
+    ]
+  },
+  {
+    "objectID": "summary_4.html#consejito-final",
+    "href": "summary_4.html#consejito-final",
+    "title": "3  GitHub en tu contenedor",
+    "section": "3.3 ✅ Consejito final",
+    "text": "3.3 ✅ Consejito final\nSi estás sola en el proyecto:\n\nUsa git add . + commit + push regularmente para respaldar tu trabajo\nSi estás trabajando en equipo:\nSiempre haz git pull antes de comenzar tu trabajo\nHaz git push después de cada cambio importante\n\nSee Knuth (1984) for additional discussion of literate programming\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>GitHub en tu contenedor</span>"
+    ]
+  },
+  {
+    "objectID": "prediccion.html",
+    "href": "prediccion.html",
+    "title": "4  Uso del repositorio GIt directamente desde VS Code",
+    "section": "",
+    "text": "4.1 git add (Agregar cambios al área de staging)\nEn el panel de control de código fuente, verás los archivos modificados bajo, en este encontraras todo lo necesario para verificar los cambios y subirlos desde el mismo VSC.\nEsto equivale a hacer git add &lt;archivo&gt; , o tambien el comando git add . en la terminal.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Uso del repositorio GIt directamente desde VS Code</span>"
+    ]
+  },
+  {
+    "objectID": "prediccion.html#git-add-agregar-cambios-al-área-de-staging",
+    "href": "prediccion.html#git-add-agregar-cambios-al-área-de-staging",
+    "title": "4  Uso del repositorio GIt directamente desde VS Code",
+    "section": "",
+    "text": "Panel lateral Visual Studio Code\n\n\n\nEn el panel lateral izquierdo, haz clic en el icono de Control de código fuente (o presiona Ctrl + Shift + G).\nVerás los archivos modificados listados bajo “Changes”.\nPara preparar (staging) los archivos que quieres incluir en el próximo commit:\n\nHaz clic en el símbolo + que aparece al lado de cada archivo para agregarlo individualmente.\nO haz clic en el símbolo + junto a “Changes” para agregar todos los archivos modificados.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Uso del repositorio GIt directamente desde VS Code</span>"
+    ]
+  },
+  {
+    "objectID": "prediccion.html#git-commit-guardar-los-cambios-localmente",
+    "href": "prediccion.html#git-commit-guardar-los-cambios-localmente",
+    "title": "4  Uso del repositorio GIt directamente desde VS Code",
+    "section": "4.2 git commit (Guardar los cambios localmente)",
+    "text": "4.2 git commit (Guardar los cambios localmente)\n\nDespués de agregar los archivos, estos pasarán a la sección “Staged Changes”.\nEn el cuadro de texto que aparece arriba en el panel de control de código fuente, escribe un mensaje descriptivo que explique los cambios realizados (por ejemplo, “Corrige error en función de cálculo”).\nPresiona Ctrl + Enter para hacer el commit.\nEsto ejecuta git commit -m \"tu mensaje\" y guarda los cambios en tu repositorio local.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Uso del repositorio GIt directamente desde VS Code</span>"
+    ]
+  },
+  {
+    "objectID": "prediccion.html#recursos-y-tutoriales-recomendados-para-aprender-git-y-github-con-vs-code",
+    "href": "prediccion.html#recursos-y-tutoriales-recomendados-para-aprender-git-y-github-con-vs-code",
+    "title": "4  Uso del repositorio GIt directamente desde VS Code",
+    "section": "4.3 Recursos y tutoriales recomendados para aprender Git y GitHub con VS Code",
+    "text": "4.3 Recursos y tutoriales recomendados para aprender Git y GitHub con VS Code\n\nTutorial paso a paso para usar Git en VS Code (en inglés)\nhttps://justin.searls.co/posts/one-shotting-git-pull-commit-push-in-vs-code/ 1\nVideo tutorial: Cómo hacer commit y push automático en VS Code\nhttps://www.youtube.com/watch?v=JgN2-oTS__0 2\nAtajos esenciales para Git en VS Code (artículo en inglés)\nhttps://tecadmin.net/shortcuts-for-git-integration-in-visual-studio-code/ 3\nTutorial completo para usar Git con VS Code (en inglés)\nhttps://www.vogella.com/tutorials/VisualStudioCodeGit/article.html 4\nCurso completo de Git y GitHub desde cero (en español, YouTube)\nhttps://www.youtube.com/watch?v=3GymExBkKjE 5\nRecopilación de recursos para aprender Git y GitHub (en español)\nhttps://welearndata.com/git/los-mejores-recursos-para-aprender-y-practicar-git-y-github/",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Uso del repositorio GIt directamente desde VS Code</span>"
+    ]
+  },
+  {
+    "objectID": "tres.html",
+    "href": "tres.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
