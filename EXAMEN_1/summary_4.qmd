@@ -1,0 +1,69 @@
+# GitHub en tu contenedor
+
+## Clona tu repositorio dentro del contenedor Docker
+
+Clonar un repositorio significa copiar todo el contenido de un proyecto GitHub a tu máquina local, dentro de una carpeta nueva. Para ellos puedes escoger una ruta en tu maquina local o dejar la que se crea por defecto en disco c.
+
+Para abrir la carpeta se usa el siguiente comando
+
+```{c++}
+mkdir Proyectos\mi_carpeta
+
+cd Proyectos\mi_carpeta
+```
+
+Luego de tener la carpeta dentro de la misma copiamos el repositorio, con el siguiente comando en terminal
+
+git clone <https://github.com/your_username/your_repository_name.git>
+
+Se crea una carpeta para el repositorio que puedes empezar a usar para realizar todos los cambios que desees, asi como guardar informacion y construir carpetas nuevas en tu repositorio.
+
+#### Probremos...
+
+## Crear carpetas y archivos en tu carpeta Git.
+
+Puedes crear carpetas de forma manual o desde tu terminal, procurando seguir una estructura ordenada
+
+```{c++}
+Ruta a tu carpeta del repositorio Git. ├── notebooks
+│ └── practica_01.ipynb ├── data
+│ └── suelo_data.csv ├── .git
+├── README.md
+
+```
+
+### Agrega los archivos:
+
+No hace nada sin parámetros y muestra que estan listos los archivos para subir
+
+`git add notebooks/ data/`
+
+### Haz un commit:
+
+Registra los cambios localmente y permite comentar sobre los cambios realizados
+
+`git commit -m "Agrega carpetas notebooks y data con archivos iniciales"`
+
+### Sube a GitHub:
+
+Sube los cambios a GitHub
+
+`git push origin main`
+
+Veras los cambios realizados en tu repositorio
+
+![Contenedores en ejecución](imagenes/commit.png)
+
+## ✅ Consejito final
+
+Si estás sola en el proyecto:
+
+-   Usa `git add .` + `commit` + `push` regularmente para respaldar tu trabajo
+
+-   Si estás trabajando en equipo:
+
+-   Siempre haz `git pull` antes de comenzar tu trabajo
+
+-   Haz `git push` después de cada cambio importante
+
+See @knuth84 for additional discussion of literate programming

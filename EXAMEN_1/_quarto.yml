@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Configuración de GitHub desde Visual Studio Code en un contenedor Docker"
+  date: "2025-05-27"
+  author: Jeanneth Pérez Vallejo
+  chapters:
+    - index.qmd
+    - EDA_2.qmd
+    - EDA_3.qmd
+    - summary_4.qmd
+    - prediccion.qmd
+    - tres.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+ 
+
+
+

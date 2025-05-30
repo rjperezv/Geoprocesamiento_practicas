@@ -1,0 +1,53 @@
+---
+title: "Uso del repositorio GIt directamente desde VS Code"
+format: html
+editor: visual
+---
+
+## git add (Agregar cambios al área de staging)
+
+En el panel de control de código fuente, verás los archivos modificados bajo, en este encontraras todo lo necesario para verificar los cambios y subirlos desde el mismo VSC.
+
+![Panel lateral Visual Studio Code](imagenes/VSC.png){alt="Contenedores en ejecución"}
+
+-   En el panel lateral izquierdo, haz clic en el icono de **Control de código fuente** (o presiona **`Ctrl + Shift + G`**).
+
+-   Verás los archivos modificados listados bajo "Changes".
+
+-   Para preparar (staging) los archivos que quieres incluir en el próximo commit:
+
+    -   Haz clic en el símbolo **`+`** que aparece al lado de cada archivo para agregarlo individualmente.
+
+    -   O haz clic en el símbolo **`+`** junto a "Changes" para agregar todos los archivos modificados.
+
+Esto equivale a hacer **`git add <archivo>`** , o tambien el comando **`git add .`** en la terminal.
+
+## git commit (Guardar los cambios localmente)
+
+-   Después de agregar los archivos, estos pasarán a la sección "Staged Changes".
+
+-   En el cuadro de texto que aparece arriba en el panel de control de código fuente, escribe un mensaje descriptivo que explique los cambios realizados (por ejemplo, "Corrige error en función de cálculo").
+
+-   Presiona **`Ctrl + Enter`** para hacer el commit.
+
+-   Esto ejecuta **`git commit -m "tu mensaje"`** y guarda los cambios en tu repositorio local.
+
+## Recursos y tutoriales recomendados para aprender Git y GitHub con VS Code
+
+-   **Tutorial paso a paso para usar Git en VS Code (en inglés)**\
+    <https://justin.searls.co/posts/one-shotting-git-pull-commit-push-in-vs-code/> [[1]{.underline}](https://justin.searls.co/posts/one-shotting-git-pull-commit-push-in-vs-code/)
+
+-   **Video tutorial: Cómo hacer commit y push automático en VS Code**\
+    <https://www.youtube.com/watch?v=JgN2-oTS__0> [2]{.underline}
+
+-   **Atajos esenciales para Git en VS Code (artículo en inglés)**\
+    <https://tecadmin.net/shortcuts-for-git-integration-in-visual-studio-code/> [[3]{.underline}](https://tecadmin.net/shortcuts-for-git-integration-in-visual-studio-code/)
+
+-   **Tutorial completo para usar Git con VS Code (en inglés)**\
+    <https://www.vogella.com/tutorials/VisualStudioCodeGit/article.html> [[4]{.underline}](https://www.vogella.com/tutorials/VisualStudioCodeGit/article.html)
+
+-   **Curso completo de Git y GitHub desde cero (en español, YouTube)**\
+    <https://www.youtube.com/watch?v=3GymExBkKjE> [5]{.underline}
+
+-   **Recopilación de recursos para aprender Git y GitHub (en español)**\
+    <https://welearndata.com/git/los-mejores-recursos-para-aprender-y-practicar-git-y-github/>

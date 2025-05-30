@@ -1,0 +1,47 @@
+# Introducción {.unnumbered}
+
+## ¿Qué es GitHub?
+
+GitHub es una plataforma basada en la nube que permite a los desarrolladores almacenar, compartir y colaborar en proyectos de desarrollo de software utilizando el sistema de control de versiones llamado Git. Su principal función es alojar repositorios, que son carpetas digitales donde se guardan los archivos de un proyecto y su historial de cambios.
+
+GitHub facilita el trabajo en equipo, permitiendo que varios usuarios modifiquen el mismo código de manera organizada y segura. Los desarrolladores pueden crear ramas para trabajar en nuevas funcionalidades sin afectar el código principal, revisar y comentar los cambios de otros, y proponer mejoras mediante solicitudes de cambio (pull requests). Además, GitHub permite gestionar tareas, errores y mejoras a través de incidencias (issues).
+
+La plataforma es muy popular en el mundo del desarrollo de software, con millones de usuarios y repositorios, y es especialmente conocida por alojar proyectos de código abierto. Desde 2018, GitHub es propiedad de Microsoft, pero sigue siendo una herramienta esencial y de libre acceso para desarrolladores de todo el mundo.
+
+## ¿Por que usar GitHub?
+
+Usar GitHub cuando trabajas con código es útil por varias razones fundamentales:
+
+1.  Control de versiones: GitHub, basado en Git, permite registrar cada cambio en el código, facilitando el seguimiento de todas las modificaciones, la restauración a versiones anteriores y la identificación de problemas específicos.
+
+2.  Colaboración eficiente: Permite que varios desarrolladores trabajen en el mismo proyecto desde cualquier lugar del mundo, compartiendo avances y revisando cambios antes de integrarlos al proyecto principal mediante solicitudes de cambio (pull requests).
+
+3.  Gestión de tareas y errores: Incluye herramientas para reportar errores, asignar tareas y hacer seguimiento de mejoras mediante incidencias (issues) y tableros de proyectos, lo que ayuda a organizar el flujo de trabajo.
+
+4.  Automatización de procesos: Permite automatizar pruebas, integración y despliegues (CI/CD) con GitHub Actions y otras integraciones, ahorrando tiempo en tareas repetitivas.
+
+5.  Documentación centralizada: Facilita la creación y actualización de documentación mediante archivos README y Wikis, lo que ayuda a que cualquier persona pueda entender y contribuir al proyecto.
+
+6.  Comunidad y aprendizaje: Accedes a una gran comunidad de desarrolladores, donde puedes aprender de otros proyectos, colaborar en código abierto y mejorar tus habilidades.
+
+7.  Seguridad y control de accesos: Permite gestionar permisos y proteger el código mediante herramientas de seguridad y escaneo de vulnerabilidades.
+
+En resumen, GitHub optimiza el desarrollo de software al hacerlo más organizado, seguro, colaborativo y eficiente, lo que lo convierte en una herramienta esencial para cualquier persona que trabaje con código.
+
+Además, el control de versiones te permite:
+
+Revisar el historial completo de cambios: Puedes ver quién hizo cada modificación y cuándo, lo que ayuda a identificar errores y entender el progreso del proyecto.
+
+Restaurar versiones anteriores: Si introduces un error o necesitas recuperar un estado anterior del proyecto, puedes hacerlo fácilmente.
+
+Colaborar sin conflictos: Facilita el trabajo simultáneo de varias personas en el mismo proyecto, resolviendo automáticamente la mayoría de los conflictos y permitiendo fusionar los cambios de manera ordenada.
+
+Mejorar la calidad del código: Al permitir revisiones y comentarios antes de integrar los cambios, se fomenta la revisión entre pares y la detección temprana de errores.
+
+En resumen, el control de versiones en GitHub te ayuda a trabajar de manera más segura, organizada y eficiente, protegiendo tu código y optimizando la colaboración en equipo.
+
+### Bienvenidxs al uso de GItHub
+
+Es tiempo ... ¡Vamos a usar GitHub!
+
+![¡Esto es GitHub!](imagenes/Git.png){width="80%" height="300px"}
